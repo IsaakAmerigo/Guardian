@@ -21,18 +21,22 @@ https://i.imgur.com/dOFdotu.png?1
         {
             "id": "recFJOpaxVJc0DdA2",
             "fields": {
-                "rating": 5,
-                "Name": "Arizona",
-                "Notes": "Ranked most pro self defense state: Shall-issue, Constitutional carry state w/ concealed weapons permit.\n\nOpen carry state w/ some limits.\n\nCastle Doc..."
+                "topic": "Great pro self defense state ",
+
+                "message": "Shall-issue, Constitutional carry state w/ concealed weapons permit.\n\nOpen carry state w/ some limits.\n\nCastle Doctrine state. Laws effectively allow ...",
+
+                "location": "Arizona"
             },
             "createdTime": "2021-06-29T00:18:09.000Z"
         },
         {
             "id": "rec1VvpwAZIezICqE",
             "fields": {
-                "rating": 1,
-                "Name": "New York ",
-                "Notes": "Ranked most anti self defense state:\n\nRed flags law state.\n\nStand-your-ground is limited to Castle doctrine; only INSIDE your home. Think Joel Paul in..."
+                "topic": "Lowest ranked state for self defense policy",
+
+                "message": "Red flags law state.\n\nStand-your-ground is limited to Castle doctrine; only INSIDE your home. Think Joel Paul in Queens July 30, 2018; intruder forced...",
+                
+                "location": "New York"
             },
             "createdTime": "2021-06-29T00:18:09.000Z"
         },
