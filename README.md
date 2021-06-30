@@ -1,43 +1,38 @@
 # Project Name & Description
 
-The app's name is Guardian. It is a guide to understanding self defense tactics/law, knowledge on gear & informational resources.
+The app's name is Guardian. It is a platform where users can create & read guides. Gain or share knowledge on laws/precautions along with tools to defense users Life, Liberty & Property. 
 
 ## Wireframes & Component Hierarchy
 
-https://i.imgur.com/xw0v4Hw.jpg <br>
-https://i.imgur.com/TpRijtC.jpg <br>
-https://i.imgur.com/usgskV1.jpg <br>
-https://i.imgur.com/CkF3oQ9.jpg <br>
-https://i.imgur.com/zzydOra.jpg <br>
-https://i.imgur.com/c9gUxcv.jpg <br>
-https://i.imgur.com/6xTRf9W.jpg <br>
-https://i.imgur.com/3ajBBsI.jpg <br>
-https://i.imgur.com/4lE4DTy.jpg <br>
-https://i.imgur.com/P44FT6p.jpg <br>
-https://i.imgur.com/YHDqdcB.jpg <br>
-https://i.imgur.com/tYfyY3d.jpg <br>
-https://i.imgur.com/pym66sT.jpg <br>
-
+https://i.imgur.com/6bWlTnE.png?1 <br>
+https://i.imgur.com/qDubU4E.png?1 <br>
+https://i.imgur.com/awzbcCR.png?1 <br>
+https://i.imgur.com/sGESVfO.png?1 <br>
+https://i.imgur.com/vTtLtlK.png?1 <br>
+https://i.imgur.com/UAAGmJI.png?1 <br>
+https://i.imgur.com/dOFdotu.png?1
 
 ## API and Data Sample
 
-"https://api.airtable.com/v0/appGRc15m3KZrljUp/Guardian?maxRecords=3&view=Grid%20view"
+"https://api.airtable.com/v0/appGRc15m3KZrljUp/guardian?maxRecords=3&view=Grid%20view"
 ```
 {
     "records": [
         {
             "id": "recFJOpaxVJc0DdA2",
             "fields": {
+                "rating": 5,
                 "Name": "Arizona",
-                "Notes": "Ranked most pro gun state by multiply sites "
+                "Notes": "Ranked most pro self defense state: Shall-issue, Constitutional carry state w/ concealed weapons permit.\n\nOpen carry state w/ some limits.\n\nCastle Doc..."
             },
             "createdTime": "2021-06-29T00:18:09.000Z"
         },
         {
             "id": "rec1VvpwAZIezICqE",
             "fields": {
+                "rating": 1,
                 "Name": "New York ",
-                "Notes": "Ranked most anti gun state"
+                "Notes": "Ranked most anti self defense state:\n\nRed flags law state.\n\nStand-your-ground is limited to Castle doctrine; only INSIDE your home. Think Joel Paul in..."
             },
             "createdTime": "2021-06-29T00:18:09.000Z"
         },
@@ -60,6 +55,10 @@ create api<br>
 Render data on page<br>
 Make it desktop/mobile friendly<br>
 Allow user to add to guide<br>
+Knowledge guide will let users to read summaries on self defense laws & sources for more information<br>
+Tool guide will allow users to read summaries on non-lethal & lethal for more information<br>
+
+
 
 ## Post MVP
 
