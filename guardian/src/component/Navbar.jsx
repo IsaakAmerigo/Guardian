@@ -4,10 +4,10 @@ function Navbar() {
 
   return(
 <nav>
-  <Link to="/">Guardian</Link>
-  <Link to="/newKnow">Knowledge</Link>
-  <Link to="/newPur">Purpose</Link>
-  <Link to="/newTool">Tool</Link>
+  <Link to="/"> Guardian </Link>
+  <Link to="/newKnow"> Knowledge </Link>
+  <Link to="/newPur"> Purpose </Link>
+  <Link to="/newTool"> Tool </Link>
 </nav>
 
   )

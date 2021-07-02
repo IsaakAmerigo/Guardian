@@ -1,13 +1,29 @@
-import { Route } from 'react-dom';
-// import axios from 'axios';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+import { Route } from 'react-router-dom';
 import Navbar from './component/Navbar';
 // import Knowledge from './component/Knowledge';
 // import Tool from './component/Tool';
+import { baseURL, config } from './services';
 import './App.css';
 
 
 function App() {
+  const [ guide, setGuide] = useState([]);
+  const [ toggleFetch, setToggleFetch] = useState(true);
 
+useEffect(() => {
+
+const fetchGuide = async () => {
+
+const resp = await axios.get(baseURL, config);
+
+// console.log(resp.data.records);
+setGuide(resp.data.records);
+}
+
+fetchGuide();
+}, []);
 
 
   return (
@@ -16,7 +32,7 @@ function App() {
 <Navbar />
       
         <Route exact path="/">
-        
+        <h2> Based Nationalist</h2>
 
       </Route>
 
