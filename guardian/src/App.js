@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Route } from "react-router-dom";
+import Form from "./component/Form";
 import Navbar from "./component/Navbar";
 import Guide from "./component/Guide";
+
 // import Knowledge from './component/Knowledge';
 // import Tool from './component/Tool';
 import { baseURL, config } from "./services";
@@ -35,23 +37,27 @@ function App() {
         <main>
           {/* ok bud, so you grab all the guides(guides.map) but want to piece through each guide({guide}) & turn X on/off(delete)..that's how we see it  */}
 
-          {guides.map((guide) => {
+          {guides.map((guide) => (
             <Guide
               key={guide.id}
               guide={guide}
               setToggleFetch={setToggleFetch}
-            />;
-          })}
+            />
+          ))}
         </main>
       </Route>
 
-      <Route exact path="/newKnow"></Route>
+      <Route exact path="/newKnow">
+        <Form setToggleFetch={setToggleFetch}/>
+      </Route>
 
       <Route exact path="/Purpose"></Route>
 
-      <Route exact path="/newTool"></Route>
+      <Route exact path="/newTool">
+      <Form setToggleFetch={setToggleFetch}/>
+      </Route>
 
-      <Route exact path="/edit/:id"></Route>
+      
     </div>
   );
 }
