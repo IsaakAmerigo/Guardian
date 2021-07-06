@@ -1,0 +1,36 @@
+# PROJECT ISSUE TICKET
+
+> I can't split my form output. 
+
+## Unexpected Behavior
+
+> When I use form on my Tool page it shows on my Knowledge. 
+
+## Expected Behavior
+
+> Use the form on Tool & its posted on Tool.
+
+## Reproduce the Error
+
+> Describe the steps we can take to reproduce the error, i.e.:
+
+```
+Create Form
+Grab the guide structure
+
+type it in on Tool but it appear on Knowledge
+       
+```
+
+## Documentation
+
+> No error just trapped
+
+## Attempted Resolution
+
+> If you haven't already, **Google your error message now**. See if those error messages return an answer. Include at least 2 resources you've tried to consult such as walk-throughs, stack overflow articles, and other discussion threads related to your error.
+
+```md
+1. https://reactjs.org/docs/forms.html
+2. Hutch in TA hrs
+```
