@@ -1,11 +1,70 @@
 .App {
   text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to top right, black, #FC6600);
+  height: 100vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+  p {
+    font-family: 'Prociono', serif;
+   font-size: 20px;
+    font-weight: bold; 
+    color: white;
+}
+
+#mars {
+height: 500px;
+weight: 300px;
+}
+
+h2 {
+  font-family: 'Germania One', cursive;
+  color: navy;
+}
+
+.about {
+color: black;
+}
+#strong {
+color: white;
+}
+
+#chad {
+color: red;
+font-family: 'Germania One', cursive;
+
+}
+
+.grid-container {
+
+}
+
+
+
+ #john {
+    width: 600px;
+    height: 450px;
+    border-radius: 20px;
+ }
+
+ #doyle {
+  
+   font-family: 'Prociono', serif;
+      font-size: 20px;
+   font-weight: bold; 
+ }
+
+ form {
+   flex-wrap: wrap;
+   border-box: 
+ }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +95,16 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 900px) {
+
+} 
+
+@media screen and (min-height: 100px) {
+  .App {
+
+  }
+
+} 
+
+

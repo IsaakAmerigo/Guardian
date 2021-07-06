@@ -4,9 +4,10 @@ import { Route } from "react-router-dom";
 import Form from "./component/Form";
 import Navbar from "./component/Navbar";
 import Guide from "./component/Guide";
-
-// import Knowledge from './component/Knowledge';
-// import Tool from './component/Tool';
+import Guardian from "./component/Guardian";
+import Purpose from "./component/Purpose";
+import Knowledge from './component/Knowledge';
+import Tool from './component/Tool';
 import { baseURL, config } from "./services";
 import "./App.css";
 
@@ -14,7 +15,9 @@ import "./App.css";
 
 function App() {
   const [guides, setGuides] = useState([]);
+  const [tools, setTools] = useState([]);
   const [toggleFetch, setToggleFetch] = useState(true);
+  const [current, setCurrent] = useState("");
 
   useEffect(() => {
     const fetchGuides = async () => {
@@ -28,15 +31,21 @@ function App() {
     fetchGuides();
   }, [toggleFetch]); // run only on mount...your doing good buddy
 
+
   return (
     <div className="App">
       <Navbar />
 
-      <Route path="/">
-        {/* <h2> Based Nationalist</h2> */}
-        <main>
+      <Route exact path="/guardian">
+      <Guardian />
+      </Route>
+      
+
+      <Route path="/newKnow">
+      <main>
           {/* ok bud, so you grab all the guides(guides.map) but want to piece through each guide({guide}) & turn X on/off(delete)..that's how we see it  */}
 
+          <Form setToggleFetch={setToggleFetch}/>
           {guides.map((guide) => (
             <Guide
               key={guide.id}
@@ -45,15 +54,21 @@ function App() {
             />
           ))}
         </main>
+
       </Route>
 
-      <Route exact path="/newKnow">
-        <Form setToggleFetch={setToggleFetch}/>
+      <Route path="/Purpose">
+            <Purpose />
       </Route>
 
-      <Route exact path="/Purpose"></Route>
-
-      <Route exact path="/newTool">
+      <Route  path="/newTool">
+      {tools.map((tool) => (
+            <Tool
+              key={tool.id}
+              tool={tool}
+              setToggleFetch={setToggleFetch}
+            />
+          ))}
       <Form setToggleFetch={setToggleFetch}/>
       </Route>
 
