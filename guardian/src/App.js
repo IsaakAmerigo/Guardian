@@ -34,7 +34,7 @@ function App() {
       <Route exact path="/">
         
       <div>
-  <h2>Welcome to the Revolt</h2>
+  <h2>Welcome to Guardian</h2>
 <img src="https://i.imgur.com/MauQhiA.jpg" alt="roman god mars" id="mars"></img>
 <p>
 <em> Image from myancientworld.tumblr.com</em>

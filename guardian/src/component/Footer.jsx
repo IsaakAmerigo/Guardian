@@ -2,7 +2,6 @@
 
 
 function Footer () {
-  // Got the idea from the Arslan channel
 return(
 <div class="footer">
 

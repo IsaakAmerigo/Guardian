@@ -23,7 +23,7 @@ const handleSubmit = async (e) => {
  }
 
   return (
-<form class="box"onSubmit={handleSubmit}>
+<form class="box" onSubmit={handleSubmit}>
 
   <input  id="topic" type="text" placeholder="Topic" onChange={(e) => setTopic(e.target.value)} value={topic}/>
 

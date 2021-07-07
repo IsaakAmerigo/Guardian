@@ -41,6 +41,17 @@ font-size: 40px;
 .about {
 color: black;
 }
+
+#revolt {
+  font-family: 'Germania One', cursive;
+  font-size: 45px;
+}
+
+#item {
+  font-family: 'Germania One', cursive;
+  color: black;
+}
+
 #strong {
 color: white;
 }
@@ -53,6 +64,8 @@ font-family: 'Germania One', cursive;
 .grid-container {
 display: grid;
 }
+
+
 
 nav {
   font-size: 25px;

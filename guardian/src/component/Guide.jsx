@@ -15,9 +15,9 @@ props.setToggleFetch((curr) => !curr);
 
   return (
     <article className="guides">
-<h3>{topic}</h3>
+<h3 id="item">{topic}</h3>
 <p>{message}</p>
-<p>{location}</p>
+<p id="item">{location}</p>
 <button onClick={deleteGuide}>Frank Castle</button>
 
 
