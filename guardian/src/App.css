@@ -95,7 +95,9 @@ nav {
   font-weight: bold; 
 }
 
-
+button {
+  background: #FC6600;
+}
 
 .box {
   display: flex;
