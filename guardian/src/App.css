@@ -56,9 +56,16 @@ display: grid;
 
 nav {
   font-size: 25px;
+  color: #bd5007;
+  font-family: 'Germania One', cursive;
   display: flex;
   justify-content: space-evenly;
+  border: 10px solid black;
+  border-style: solid;
+  background: black;
 }
+
+
 
 
 
@@ -91,7 +98,6 @@ flex-wrap: wrap;
   border: 10px solid black;
   border-style: solid;
   background: #bd5007;
-  color: rgb(2, 62, 174);
   text-align: center;
   margin: 20px 0 -100px 0;
   
