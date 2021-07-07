@@ -2,10 +2,17 @@
   text-align: center;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  /* background-repeat: repeat; */
   background-image: linear-gradient(to top right, black, #FC6600);
   height: 100vh;
+  padding-bottom: 50px;
+
 }
+
+html, body {
+  height: 100%;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -13,18 +20,20 @@
 }
 
   p {
-    font-family: 'Prociono', serif;
-   font-size: 20px;
+    font-family: 'Prociono', serif; font-size: 20px;
     font-weight: bold; 
     color: white;
 }
 
 #mars {
 height: 500px;
-weight: 300px;
+width: 300px;
+border-radius: 20px;
+border: royalblue;
 }
 
 h2 {
+font-size: 40px;
   font-family: 'Germania One', cursive;
   color: navy;
 }
@@ -39,32 +48,42 @@ color: white;
 #chad {
 color: red;
 font-family: 'Germania One', cursive;
-
 }
 
 .grid-container {
+display: grid;
+}
 
+nav {
+  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#john {
+  width: 600px;
+  height: 450px;
+  border-radius: 20px;
+}
+
+#doyle {
+  
+  font-family: 'Prociono', serif;
+  font-size: 20px;
+  font-weight: bold; 
 }
 
 
 
- #john {
-    width: 600px;
-    height: 450px;
-    border-radius: 20px;
- }
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-style: solid;
+  box-sizing: border-box;
+flex-wrap: wrap;
 
- #doyle {
-  
-   font-family: 'Prociono', serif;
-      font-size: 20px;
-   font-weight: bold; 
- }
-
- form {
-   flex-wrap: wrap;
-   border-box: 
- }
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -96,15 +115,42 @@ font-family: 'Germania One', cursive;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 370px) {
 
-} 
-
-@media screen and (min-height: 100px) {
   .App {
-
+background-size: cover;
+background-position: center;
+height: 100%;
   }
 
+  #mars {
+    height: 200px;
+    width: 175px
+  }
+
+  #john {
+height: 250px;
+width: 300px; 
+}
+
 } 
 
+@media screen and (max-width: 600px) {
+  .App {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+      }
+    
+      #mars {
+        height: 200px;
+        width: 175px
+      }
+    
+      #john {
+        height: 250px;
+width: 300px; 
+    /* display: none; */
+      }
+}
 
