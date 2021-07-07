@@ -7,8 +7,6 @@ function Navbar() {
   <Link class="grid-container" to="/guardian" > Guardian </Link>
   <Link to="/newKnow"> Knowledge </Link>
   <Link to="/Purpose"> Purpose </Link>
- 
-  
 </nav>
 
   )

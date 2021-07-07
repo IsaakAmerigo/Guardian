@@ -1,0 +1,10 @@
+.foot {
+  width: 25px;
+  height: 25px;
+padding: 5px;
+margin-bottom: -20px;
+
+}
+.foot:hover {
+  background-color: yellow;
+}

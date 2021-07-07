@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import axios from "axios";
 import { baseURL, config } from "../services";
 
@@ -20,9 +20,7 @@ props.setToggleFetch((curr) => !curr);
 <p>{location}</p>
 <button onClick={deleteGuide}>Frank Castle</button>
 
-{/* <Link to={`/edit/${props.guide.id}`}>
-<button>Boomer Moment</button>
-</Link> */}
+
 
     </article>
   )

@@ -1,7 +1,7 @@
 import axios from 'axios';
-import { useEffect, useState } from 'react';
-import { useParams } from "react-router-dom";
 import { baseURL, config } from '../services';
+import {  useState } from 'react';
+
 
 function Form(props) {
 const [topic, setTopic] = useState("");
@@ -23,7 +23,7 @@ const handleSubmit = async (e) => {
  }
 
   return (
-<form class="box" onSubmit={handleSubmit}>
+<form class="box"onSubmit={handleSubmit}>
 
   <input  id="topic" type="text" placeholder="Topic" onChange={(e) => setTopic(e.target.value)} value={topic}/>
 

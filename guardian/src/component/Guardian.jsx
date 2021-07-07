@@ -1,5 +1,7 @@
 
-function Guardian () {}
+function Guardian (props) {
+
+}
 
 
 export default Guardian;

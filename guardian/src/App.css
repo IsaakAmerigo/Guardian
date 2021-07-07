@@ -2,9 +2,9 @@
   text-align: center;
   background-position: center;
   background-size: cover;
-  /* background-repeat: repeat; */
+  /* background-repeat: round; */
   background-image: linear-gradient(to top right, black, #FC6600);
-  height: 100vh;
+  height: 100%;
   padding-bottom: 50px;
 
 }
@@ -55,9 +55,13 @@ display: grid;
 }
 
 nav {
-  
+  font-size: 25px;
   display: flex;
   justify-content: space-evenly;
+}
+
+nav:hoover {
+  color:red;
 }
 
 #john {
@@ -83,6 +87,25 @@ nav {
   box-sizing: border-box;
 flex-wrap: wrap;
 
+}
+
+footer {
+  border: 10px solid black;
+  border-style: inset;
+  background: #bd5007;
+  color: rgb(2, 62, 174);
+  text-align: center;
+  }
+
+.foot {
+  width: 25px;
+  height: 25px;
+padding: 5px;
+margin-bottom: -20px;
+
+}
+.foot:hover {
+  background-color: yellow;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -128,6 +151,11 @@ height: 100%;
     width: 175px
   }
 
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   #john {
 height: 250px;
 width: 300px; 
@@ -150,7 +178,26 @@ width: 300px;
       #john {
         height: 250px;
 width: 300px; 
-    /* display: none; */
+  
+      }
+}
+
+@media screen and (max-width: 315px) {
+  .App {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+      }
+    
+      #mars {
+        height: 200px;
+        width: 175px
+      }
+    
+      #john {
+        height: 150px;
+        width: 205px
+    
       }
 }
 
