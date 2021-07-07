@@ -30,7 +30,7 @@ function App() {
     <div className="App">
 
 <Navbar />
-      <Route exact path="/guardian">
+      <Route exact path="/">
         
       <div>
   <h2>Welcome to the Revolt</h2>
