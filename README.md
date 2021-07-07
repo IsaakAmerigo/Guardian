@@ -4,13 +4,13 @@ The app's name is Guardian. It is a platform where users can create & read guide
 
 ## Wireframes & Component Hierarchy
 
-https://i.imgur.com/6bWlTnE.png?1 <br>
-https://i.imgur.com/qDubU4E.png?1 <br>
-https://i.imgur.com/awzbcCR.png?1 <br>
-https://i.imgur.com/sGESVfO.png?1 <br>
-https://i.imgur.com/vTtLtlK.png?1 <br>
-https://i.imgur.com/UAAGmJI.png?1 <br>
-https://i.imgur.com/dOFdotu.png?1
+https://i.imgur.com/PDlPUA7.png?1 <br>
+https://i.imgur.com/U2SjBdO.png?1 <br>
+https://i.imgur.com/yuZlLEN.png?1 <br>
+https://i.imgur.com/fpND1Fd.png?1 <br>
+https://i.imgur.com/GGOpeuI.png?1 <br>
+https://i.imgur.com/UhB5tUJ.png?1 <br>
+https://i.imgur.com/VA4jst4.png?1
 
 ## API and Data Sample
 
@@ -59,8 +59,8 @@ create api<br>
 Render data on page<br>
 Make it desktop/mobile friendly<br>
 Allow user to add to guide<br>
-Knowledge guide will let users to read summaries on self defense laws & sources for more information<br>
-Tool guide will allow users to read summaries on non-lethal & lethal for more information<br>
+Knowledge guide will let users to read summaries on self defense laws, sources, etc for more information<br>
+
 
 
 
@@ -68,6 +68,7 @@ Tool guide will allow users to read summaries on non-lethal & lethal for more in
 
 Add a trauma story page.<br>
 Add crime rates <br>
+Add more designs to platform<br>
 
 
 
