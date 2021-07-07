@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Route } from "react-router-dom";
+import Footer from "./component/Footer";
 import Form from "./component/Form";
 import Navbar from "./component/Navbar";
 import Guide from "./component/Guide";
@@ -64,10 +65,8 @@ function App() {
       <Route path="/Purpose">
             <Purpose />
       </Route>
-{/* <Route>
 
 <Footer />
-</Route> */}
 </div>
       );
 }

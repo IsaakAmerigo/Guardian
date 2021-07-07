@@ -4,7 +4,7 @@ function Navbar() {
 
   return(
 <nav >
-  <Link class="grid-container" to="/guardian" > Guardian </Link>
+  <Link class="grid-container" to="/" > Guardian </Link>
   <Link to="/newKnow"> Knowledge </Link>
   <Link to="/Purpose"> Purpose </Link>
 </nav>

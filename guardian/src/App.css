@@ -28,7 +28,7 @@ html, body {
 #mars {
 height: 500px;
 width: 300px;
-border-radius: 20px;
+border-radius: 200px;
 border: royalblue;
 }
 
@@ -60,9 +60,7 @@ nav {
   justify-content: space-evenly;
 }
 
-nav:hoover {
-  color:red;
-}
+
 
 #john {
   width: 600px;
@@ -89,12 +87,14 @@ flex-wrap: wrap;
 
 }
 
-footer {
+.footer {
   border: 10px solid black;
-  border-style: inset;
+  border-style: solid;
   background: #bd5007;
   color: rgb(2, 62, 174);
   text-align: center;
+  margin: 20px 0 -100px 0;
+  
   }
 
 .foot {
@@ -107,6 +107,8 @@ margin-bottom: -20px;
 .foot:hover {
   background-color: yellow;
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
