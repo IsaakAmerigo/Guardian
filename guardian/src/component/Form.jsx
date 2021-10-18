@@ -23,17 +23,20 @@ const handleSubmit = async (e) => {
  }
 
   return (
-<form class="box" onSubmit={handleSubmit}>
+  <div class="form">
 
-  <input  id="topic" type="text" placeholder="Topic" onChange={(e) => setTopic(e.target.value)} value={topic}/>
+    <form class="box" onSubmit={handleSubmit}>
+
+  <input  id="topic" type="text" placeholder="Topic" onChange={(e) => setTopic(e.target.value)} value={topic}/> <br/>
 
   <textarea  id="message" placeholder="Message" onChange={(e) => setMessage(e.target.value)} value={message}>
-    </textarea>
+    </textarea> <br/>
 
-    <input  type="name" id="location" placeholder="Location" onChange={(e) => setLocation(e.target.value)} value={location}/> 
+    <input  type="name" id="location" placeholder="Location" onChange={(e) => setLocation(e.target.value)} value={location}/>  
 
   <button type="submit">👌🏻Share👌🏻</button>
 </form>
+  </div>
   )
 }
 

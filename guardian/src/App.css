@@ -1,12 +1,18 @@
 .App {
   text-align: center;
-  background-position: center;
-  background-size: cover;
-  /* background-repeat: round; */
   background-image: linear-gradient(to top right, black, #FC6600);
+  background-position: relative;
+  background-size: cover;
+background-attachment: fixed;
   height: 100%;
   padding-bottom: 50px;
+}
 
+.background {
+  background-image: linear-gradient(to top right, black, #FC6600);
+  background-position: relative;
+  background-size: cover;
+  height: 100%;
 }
 
 html, body {
@@ -65,8 +71,6 @@ font-family: 'Germania One', cursive;
 display: grid;
 }
 
-
-
 nav {
   font-size: 25px;
   color: #bd5007;
@@ -78,10 +82,6 @@ nav {
   background: black;
 }
 
-
-
-
-
 #john {
   width: 600px;
   height: 450px;
@@ -89,7 +89,6 @@ nav {
 }
 
 #doyle {
-  
   font-family: 'Prociono', serif;
   font-size: 20px;
   font-weight: bold; 
@@ -102,20 +101,38 @@ button {
 .box {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   border-style: solid;
   box-sizing: border-box;
 flex-wrap: wrap;
+width: 500px;
+/* margin: 20px 150px 0 250px; */
+position: relative;
+}
 
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#message {
+  
 }
 
 .footer {
-  border: 10px solid black;
+  display: block;
+  border: 5px solid black;
   border-style: solid;
   background: #bd5007;
   text-align: center;
   margin: 20px 0 -100px 0;
-  
+  position: relative;
+width: cover;
+
+  }
+
+  .copy {
+    color: black;
   }
 
 .foot {
@@ -126,7 +143,8 @@ margin-bottom: -20px;
 
 }
 .foot:hover {
-  background-color: yellow;
+  border-radius: 20px;
+  background-color: red;
 }
 
 

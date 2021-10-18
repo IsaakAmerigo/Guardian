@@ -3,6 +3,9 @@
 
 function Footer () {
 return(
+  
+
+  
 <div class="footer">
 
   <a href="https://github.com/IsaakAmerigo">
@@ -13,9 +16,10 @@ return(
   <img class="foot" src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/linkedin_vnvo6s.png" alt="linkedin logo"/>
   </a> <br />
 
-<p>&copy; Isaak Amerigo 2021</p>
+<p class="copy">&copy; Landon Green 2021</p>
 
 </div>
+  
 
 )
 }
